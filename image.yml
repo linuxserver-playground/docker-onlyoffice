@@ -10,6 +10,8 @@ upstream:
   version:
     type: github_release
     repo: ONLYOFFICE/DesktopEditors
+    require_assets:
+      - asset: '^onlyoffice\-desktopeditors_amd64\.deb$'
   notes:
     type: github_release
     repo: ONLYOFFICE/DesktopEditors
